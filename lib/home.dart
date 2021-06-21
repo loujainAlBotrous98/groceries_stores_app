@@ -59,7 +59,7 @@ class _HomeState extends State<Home> {
   Center cirecularProgressIndicator() {
     return Center(
               child: CircularProgressIndicator(
-            backgroundColor: Constants.yellow,
+            backgroundColor: Constants.primary,
             valueColor: AlwaysStoppedAnimation<Color>(Colors.grey),
             strokeWidth: 4,
           ));

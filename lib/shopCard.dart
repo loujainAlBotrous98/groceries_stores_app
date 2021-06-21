@@ -93,7 +93,7 @@ class _ShopCardState extends State<ShopCard> {
                       height: size.height * 0.02,
                       width: size.width * 0.2,
                       decoration: BoxDecoration(
-                          color: Constants.yellow,
+                          color: Constants.primary,
                           borderRadius: BorderRadius.circular(20)),
                       child: Center(
                         child: Row(
